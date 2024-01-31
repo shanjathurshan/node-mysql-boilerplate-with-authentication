@@ -40,4 +40,8 @@ Contributions are welcome! Feel free to open issues, submit pull requests, or pr
 This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
 # nodejs-authentication-boilerplate-with-email-verification
 
-### Author - @shanjathurshan# node-mysql-boilerplate-with-authentication
+
+### Author - @shanjathurshan
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue.svg)](https://github.com/shanjathurshan)
+
+# node-mysql-boilerplate-with-authentication
