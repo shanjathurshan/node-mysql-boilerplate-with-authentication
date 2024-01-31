@@ -31,19 +31,8 @@ NodeJS + MySQL - Boilerplate API with Email Sign Up, Verification, Authenticatio
 
 Refer to the documentation for detailed instructions on setting up and customizing the authentication system.
 
-## Contributing:
-
-Contributions are welcome! Feel free to open issues, submit pull requests, or provide feedback to help improve this authentication boilerplate.
-
-## License:
-
-This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
-# nodejs-authentication-boilerplate-with-email-verification
-
-
-### Author - @shanjathurshan
+### Author - [@shanjathurshan](https://github.com/shanjathurshan)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue.svg)](https://github.com/shanjathurshan)
-[Link to GitHub Repository](https://github.com/shanjathurshan)
     
 
 
