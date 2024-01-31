@@ -43,5 +43,8 @@ This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LI
 
 ### Author - @shanjathurshan
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue.svg)](https://github.com/shanjathurshan)
+[Link to GitHub Repository](https://github.com/shanjathurshan)
+    
+
 
 # node-mysql-boilerplate-with-authentication
