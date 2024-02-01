@@ -13,11 +13,21 @@ app.use(cookieParser());
 // allow cors requests from any origin and with credentials
 app.use(cors({ origin: (origin, callback) => callback(null, true), credentials: true }));
 
+// API ROOT ROUTE
+app.get('/',function(req,res) {
+    res.sendFile(__dirname + '/views/index.html');
+});
+
 // api routes
 app.use('/accounts', require('./accounts/accounts.controller'));
 
 // swagger docs route
 app.use('/api-docs', require('config/swagger'));
+
+// 404 PAGE - ALWAYS KEEP THIS AS THE LAST ROUTE
+app.get('*', function(req, res){
+    res.status(404).sendFile(__dirname + '/views/notfound.html');
+});
 
 // global error handler
 app.use(errorHandler);
