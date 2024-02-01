@@ -11,10 +11,10 @@
         "start": "node ./server.js",
         "start:dev": "nodemon ./server.js",
         "db:create": "npx sequelize-cli db:create",
-        "db:migrate": "npx sequelize-cli db:migrate --migrations-path ./database/migrations",
-        "db:migrate:fresh": "npx sequelize-cli db:migrate:undo --migrations-path ./database/migrations && npx sequelize-cli db:migrate --migrations-path ./database/migrations",
-        "db:seed": "npx sequelize-cli db:seed:all --seeders-path ./database/seeders",
-        "db:reset": "npx sequelize-cli db:drop && npx sequelize-cli db:create && npx sequelize-cli db:migrate --migrations-path ./database/migrations && npx sequelize-cli db:seed:all --seeders-path ./database/seeders"
+        "db:migrate": "npx sequelize-cli db:migrate",
+        "db:migrate:fresh": "npx sequelize-cli db:migrate:undo && npx sequelize-cli db:migrate",
+        "db:seed": "npx sequelize-cli db:seed:all",
+        "db:reset": "npx sequelize-cli db:drop && npx sequelize-cli db:create && npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all"
     },
     "dependencies": {
         "bcryptjs": "^2.4.3",

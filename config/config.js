@@ -5,7 +5,7 @@ module.exports={
   development: {
     host     : process.env.DB_HOST,
     port     : process.env.DB_PORT,
-    user : process.env.DB_USERNAME,
+    username : process.env.DB_USERNAME,
     password : process.env.DB_PASSWORD,
     database : process.env.DB_DATABASE,
     dialect  : process.env.DB_CONNECTION,
@@ -22,44 +22,44 @@ module.exports={
       }
     },
   },
-  // test: {
-  //   host     : process.env.DB_HOST,
-  //   port     : process.env.DB_PORT,
-  //   user : process.env.DB_USERNAME,
-  //   password : process.env.DB_PASSWORD,
-  //   database : process.env.DB_DATABASE,
-  //   dialect  : process.env.DB_CONNECTION,
+  test: {
+    host     : process.env.DB_HOST,
+    port     : process.env.DB_PORT,
+    user : process.env.DB_USERNAME,
+    password : process.env.DB_PASSWORD,
+    database : process.env.DB_DATABASE,
+    dialect  : process.env.DB_CONNECTION,
 
-  //   appUrl   : process.env.APP_URL,
+    appUrl   : process.env.APP_URL,
 
-  //   smtpOptions: {
-  //     mailhost : process.env.MAIL_HOST,
-  //     mailport : process.env.MAIL_PORT,
-  //     password : process.env.MAIL_PASSWORD,
-  //     username : process.env.MAIL_USERNAME,
-  //     emailfrom: process.env.MAIL_FROM_ADDRESS,
-  //     mailfname: process.env.MAIL_FROM_NAME
-  //   }
-  // },
-  // production: {
-  //   host     : process.env.DB_HOST,
-  //   port     : process.env.DB_PORT,
-  //   user : process.env.DB_USERNAME,
-  //   password : process.env.DB_PASSWORD,
-  //   database : process.env.DB_DATABASE,
-  //   dialect  : process.env.DB_CONNECTION,
+    smtpOptions: {
+      mailhost : process.env.MAIL_HOST,
+      mailport : process.env.MAIL_PORT,
+      password : process.env.MAIL_PASSWORD,
+      username : process.env.MAIL_USERNAME,
+      emailfrom: process.env.MAIL_FROM_ADDRESS,
+      mailfname: process.env.MAIL_FROM_NAME
+    }
+  },
+  production: {
+    username : process.env.DB_USERNAME,
+    password : process.env.DB_PASSWORD,
+    database : process.env.DB_DATABASE,
+    host     : process.env.DB_HOST,
+    port     : process.env.DB_PORT,
+    dialect  : process.env.DB_CONNECTION,
 
-  //   appUrl   : process.env.APP_URL,
+    appUrl   : process.env.APP_URL,
 
-  //   smtpOptions: {
-  //     mailhost : process.env.MAIL_HOST,
-  //     mailport : process.env.MAIL_PORT,
-  //     password : process.env.MAIL_PASSWORD,
-  //     username : process.env.MAIL_USERNAME,
-  //     emailfrom: process.env.MAIL_FROM_ADDRESS,
-  //     mailfname: process.env.MAIL_FROM_NAME
-  //   }
-  // },
+    smtpOptions: {
+      mailhost : process.env.MAIL_HOST,
+      mailport : process.env.MAIL_PORT,
+      password : process.env.MAIL_PASSWORD,
+      username : process.env.MAIL_USERNAME,
+      emailfrom: process.env.MAIL_FROM_ADDRESS,
+      mailfname: process.env.MAIL_FROM_NAME
+    }
+  },
 
   jwtSecret: process.env.JWT_SECRET_KEY,
 }

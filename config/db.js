@@ -10,8 +10,8 @@ initialize();
 
 async function initialize() {
     // create db if it doesn't already exist
-
-    const { host, port, user, password, database } = config.development;
+    const user = config.development.username;
+    const { host, port, password, database } = config.development;
     const connection = await mysql.createConnection({ host, port, user, password });
 
     // const { username, password, database, host, port } = config.development;
