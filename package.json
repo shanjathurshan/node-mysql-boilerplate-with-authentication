@@ -5,7 +5,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/cornflourblue/node-mysql-boilerplate-with-authentication.git"
+        "url": "https://github.com/shanjathurshan/node-mysql-boilerplate-with-authentication"
     },
     "scripts": {
         "start": "node ./server.js",
