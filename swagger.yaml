@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
-  title: Node.js Sign-up and Verification API
-  description: Node.js + MySQL - API with email sign-up, verification, authentication and forgot password
+  title: Node.js + MySQL - Boilerplate API with Authentication and CRUD Operations.
+  description: Node.js + MySQL - Boilerplate API with email sign-up, verification, authentication and forgot password. Also using sequalize can generate the database, migrate the tables and import the seeders. 
   version: 1.0.0
 
 servers:
