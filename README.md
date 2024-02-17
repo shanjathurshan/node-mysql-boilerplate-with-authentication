@@ -1,4 +1,4 @@
-# node-mysql-boilerplate-with-authentication
+# Node Mysql boilerplate with authentication
 
 NodeJS + MySQL - Boilerplate API with Email Sign Up, Verification, Authentication & Forgot Password
 
